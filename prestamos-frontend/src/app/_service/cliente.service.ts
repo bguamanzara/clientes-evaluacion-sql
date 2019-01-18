@@ -19,7 +19,7 @@ export class ClienteService {
     return this.http.get<Cliente[]>(this.url);
   }
 
-  listarPacientePorId(id: number){
+  listarClientePorId(id: number){
     return this.http.get<Cliente>(`${this.url}/${id}`);
   }
 

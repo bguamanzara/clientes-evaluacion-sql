@@ -6,7 +6,7 @@ import { ClienteEdicionComponent } from './pages/cliente/cliente-edicion/cliente
 
 const routes: Routes = [
   {
-    path: 'cliente', component: ClienteComponent, children: [
+    path: '', component: ClienteComponent, children: [
       { path: 'nuevo', component: ClienteEdicionComponent },
       { path: 'editar/:id', component: ClienteEdicionComponent }
     ]

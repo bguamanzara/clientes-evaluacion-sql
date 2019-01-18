@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Prestamo } from '../_model/prestamo';
+import { Prestamo } from '../_model/Prestamo';
 import { HttpClient } from '@angular/common/http';
 import { Subject } from 'rxjs';
 import { HOST } from '../_shared/var.constant';

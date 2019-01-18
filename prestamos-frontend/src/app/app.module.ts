@@ -5,19 +5,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MaterialModule } from './material/material.module';
 import { BuscarComponent } from './pages/buscar/buscar.component';
-import { PacienteComponent } from './pages/paciente/paciente.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule } from '@angular/material';
 import { ClienteEdicionComponent } from './pages/cliente/cliente-edicion/cliente-edicion.component';
+import { ClienteComponent } from './pages/cliente/cliente.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     BuscarComponent,
-    PacienteComponent,
+    ClienteComponent,
     ClienteEdicionComponent,
   ],
   entryComponents: [],
