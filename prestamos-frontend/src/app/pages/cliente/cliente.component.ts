@@ -33,7 +33,6 @@ export class ClienteComponent implements OnInit {
 
     this.clienteService.listar().subscribe(resp => {
       console.log(resp);
-      // this.clientes = resp;
       this.dataSource = new MatTableDataSource(resp);
       this.dataSource.paginator = this.paginator;
       this.dataSource.sort = this.sort;
